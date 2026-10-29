@@ -1,72 +1,130 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1110" />
-  <meta name="description" content="Abdullah Almalki — Information Systems student exploring AI, data analysis, and digital transformation." />
-  <title>Abdullah Almalki — Information Systems & AI</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142b4a">
+  <title>مقارنة البورتفوليو | A × B</title>
+  <style>
+    :root{--navy:#102543;--navy2:#244a77;--blue:#dce9f8;--paper:#f2f5fa;--white:#fff;--ink:#172335;--muted:#66758b;--line:#dfe6ef;--amber:#a66c13;--amberbg:#fff3d9;--green:#21694d;--greenbg:#e6f3ec;--shadow:0 22px 60px rgba(16,37,67,.11);--sans:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.65}a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.top{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{font-weight:800;letter-spacing:-.04em;color:var(--navy);direction:ltr}.logo small{font-size:11px;font-weight:500;color:var(--muted);margin-inline-start:8px}.top-links,.footer-links{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.top-link{font-size:13px;text-decoration:none;color:var(--navy);border:1px solid var(--line);background:#fff;padding:8px 13px;border-radius:8px}.top-link.secondary{background:transparent}.hero{padding:54px 0 32px;display:flex;align-items:end;justify-content:space-between;gap:30px}.eyebrow{font:11px var(--mono);letter-spacing:.06em;color:var(--navy2);text-transform:uppercase}.hero h1{font-size:clamp(30px,5vw,49px);line-height:1.16;letter-spacing:-.045em;margin:12px 0 10px;color:var(--navy)}.hero p{color:var(--muted);margin:0;max-width:670px}.status{background:var(--amberbg);color:#755014;border:1px solid #efdfbd;border-radius:9px;padding:10px 13px;font-size:12px;white-space:nowrap}.status b{display:inline-block;width:7px;height:7px;border-radius:50%;background:#c28b35;margin-inline-end:7px}.tabs{display:flex;gap:8px;padding:8px;background:#e9edf2;border:1px solid var(--line);border-radius:12px;width:max-content;max-width:100%;margin:15px 0 22px;flex-wrap:wrap}.tab{display:inline-block;border-radius:8px;background:transparent;color:#526176;padding:10px 19px;font:600 13px var(--sans);text-decoration:none;white-space:nowrap}.tab.active{background:var(--navy);color:#fff;box-shadow:0 3px 9px #142b4a2b}.tab:hover{background:#fff;color:var(--navy)}.tab:focus-visible,.top-link:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #7aa7dc;outline-offset:3px}.panel{display:block;scroll-margin-top:20px;margin-bottom:20px}.card{background:var(--white);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow);padding:26px}.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px}.kicker{font:11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}h2{font-size:24px;letter-spacing:-.035em;color:var(--navy);line-height:1.25;margin:5px 0 7px}.lead{color:var(--muted);font-size:14px;margin:0;max-width:720px}.pill{font-size:11px;border-radius:99px;padding:5px 10px;white-space:nowrap}.pill.ready{background:var(--greenbg);color:var(--green)}.pill.wait{background:var(--amberbg);color:var(--amber)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.fact{border:1px solid var(--line);border-radius:10px;padding:16px;background:#fbfcfd}.fact-label{font:10px var(--mono);color:var(--muted);margin-bottom:6px}.fact strong{font-size:14px;display:block;color:var(--ink)}.fact p{font-size:12px;color:var(--muted);margin:5px 0 0}.prompt-box{margin-top:18px;border:1px solid var(--line);border-radius:11px;overflow:hidden}.prompt-box summary{cursor:pointer;padding:14px 16px;font-weight:700;font-size:13px;color:var(--navy);background:#f9fafc;list-style:none;display:flex;justify-content:space-between;gap:15px}.prompt-box summary::-webkit-details-marker{display:none}.prompt-box summary:after{content:"＋";font-weight:400;color:var(--muted)}.prompt-box[open] summary:after{content:"−"}.prompt-content{border-top:1px solid var(--line);padding:15px 17px;color:#39465a;font-size:13px;white-space:pre-wrap}.prompt-content p{margin:0 0 13px}.prompt-content p:last-child{margin-bottom:0}.prompt-content blockquote{margin:0;border-right:3px solid #b4c9e1;padding:2px 13px 2px 0;color:#47566c;direction:ltr;text-align:left;white-space:pre-wrap}.placeholder{margin-top:17px;padding:16px;border:1px dashed #d4b87e;background:#fffaf0;border-radius:10px;color:#76571d;font-size:13px}.placeholder strong{display:block;margin-bottom:3px}.placeholder p{margin:0}.comparison{overflow-x:auto}.comparison table{width:100%;border-collapse:collapse;min-width:650px}.comparison th,.comparison td{padding:14px 15px;border-bottom:1px solid var(--line);text-align:right;vertical-align:top;font-size:13px}.comparison th{background:#f7f9fb;color:var(--navy);font-size:12px}.comparison th:first-child{width:20%}.comparison td:first-child{font-weight:700;color:#44536a}.unknown{color:#855c16;background:#fffaf0;border-radius:6px;padding:3px 8px;display:inline-block;font-size:11px}.known{color:#205d46}.comparison-note{font-size:12px;color:var(--muted);margin:15px 0 0}.footer{padding:25px 0 35px;color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:16px}.footer a{color:var(--navy)}
+    /* Prompt comparison visual treatment */
+    body{background:radial-gradient(ellipse at 90% 0%,#e4edf9 0,transparent 34%),var(--paper)}
+    .top{height:78px;border-bottom-color:#d8e1ed}.logo{font-size:17px}.top-link{padding:10px 15px;border-radius:999px;font-weight:650;transition:transform .2s,background .2s}.top-link:hover{transform:translateY(-2px);background:#edf3fa}.hero{padding:76px 0 35px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#7991ae;font-size:11px;letter-spacing:.14em}.eyebrow:before{content:"";width:24px;height:1px;background:#91a8c4}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.08;max-width:780px;margin:19px 0 16px}.hero p{font-size:16px;line-height:1.9;max-width:680px}.status{border-radius:999px;padding:12px 17px;box-shadow:0 5px 20px #a66c1310}.tabs{position:sticky;top:10px;z-index:5;margin:22px 0 28px;padding:7px;width:100%;background:#ffffffd9;backdrop-filter:blur(12px);border-color:#dfe6ef;box-shadow:0 8px 26px #1025430a;border-radius:15px}.tab{padding:11px 18px;border-radius:10px}.tab.active{background:var(--navy)}
+    .prompt-showcase{position:relative;overflow:hidden;margin:0 0 25px;padding:clamp(22px,4vw,42px);border-radius:25px;background:linear-gradient(135deg,#102543 0%,#19395e 58%,#284c75 100%);color:white;box-shadow:0 28px 70px #10254329}.prompt-showcase:after{content:"A × B";position:absolute;left:-.02em;bottom:-.34em;direction:ltr;font:900 clamp(90px,20vw,220px)/1 var(--sans);letter-spacing:-.1em;color:#ffffff08;pointer-events:none}.showcase-head{position:relative;z-index:1;display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:28px}.showcase-head .kicker{color:#a9bdd6}.showcase-head h2{font-size:clamp(25px,3.7vw,38px);color:white;margin:7px 0}.showcase-head p{max-width:600px;color:#c5d2e2;font-size:14px;margin:0}.versus{display:grid;grid-template-columns:1fr 56px 1fr;gap:15px;align-items:stretch;position:relative;z-index:1}.prompt-card{min-width:0;padding:23px;border-radius:18px;background:#ffffff0c;border:1px solid #ffffff26;display:flex;flex-direction:column;justify-content:space-between;gap:20px}.prompt-card.b{background:#fff;color:var(--ink);border:1px solid #fff;box-shadow:0 14px 45px #08172c33}.prompt-label{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px;font-weight:750}.prompt-label span:last-child{font-size:10px;padding:5px 9px;border-radius:99px;background:#ffffff18;color:#cbd8e7}.prompt-card.b .prompt-label span:last-child{background:#e9f0f8;color:#365478}.prompt-card blockquote{margin:0;direction:ltr;text-align:left;font-size:clamp(15px,1.8vw,20px);font-weight:640;line-height:1.65;letter-spacing:-.015em}.prompt-card.a blockquote{color:#f0f4fa}.prompt-card.b blockquote{color:#142b4a}.prompt-foot{padding-top:16px;border-top:1px solid #ffffff24;color:#c5d2e2;font-size:12px}.prompt-card.b .prompt-foot{border-color:#e6ebf1;color:#66758b}.vs-mark{align-self:center;justify-self:center;width:46px;height:46px;display:grid;place-items:center;border-radius:50%;background:#f0b94e;color:#172b46;font:800 12px var(--mono);box-shadow:0 0 0 7px #ffffff0e}.showcase-note{position:relative;z-index:1;color:#c1d0e3;font-size:11px;margin:19px 0 0}.card{border-radius:20px;padding:clamp(20px,3vw,34px);box-shadow:var(--shadow)}.panel{scroll-margin-top:90px}.card-head{margin-bottom:26px}.fact{border-radius:14px;background:#fafbfd}.prompt-box{border-radius:14px}.comparison th:first-child{width:18%}.comparison th:nth-child(2){background:#f4f6fa}.comparison th:nth-child(3){background:#edf4fd}.comparison td:nth-child(3){background:#f8fbff}.comparison td,.comparison th{padding:16px}.footer{padding-top:35px}
+    @media(max-width:760px){.wrap{width:min(100% - 28px,600px)}.top{height:62px}.top-links{gap:5px}.top-link{font-size:11px;padding:7px 10px}.hero{padding:48px 0 25px;align-items:flex-start;flex-direction:column;gap:17px}.hero h1{font-size:clamp(38px,10vw,54px)}.hero p{font-size:14px}.status{white-space:normal}.tabs{width:100%;display:grid;grid-template-columns:repeat(3,1fr);top:5px}.tab{padding:10px 8px;font-size:12px}.card{padding:19px}.card-head{flex-direction:column;margin-bottom:18px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.footer{flex-direction:column}.comparison table{min-width:620px}.showcase-head{align-items:flex-start;flex-direction:column}.versus{grid-template-columns:1fr;gap:12px}.vs-mark{width:38px;height:38px;margin:-2px 0}.prompt-card{padding:19px}.prompt-card blockquote{font-size:16px}.prompt-showcase{border-radius:20px}}
+    @media(max-width:420px){.grid{grid-template-columns:1fr}.hero h1{font-size:31px}.card{padding:16px}.prompt-content{font-size:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{scroll-behavior:auto!important}}
+  </style>
 </head>
 <body>
-  <div class="reading-progress" aria-hidden="true"><span id="progress-fill"></span></div>
-  <div class="preview-banner">Portfolio A copy · Private email and phone details are intentionally omitted.</div>
-  <div class="page-shell">
-    <header class="topbar">
-      <a class="wordmark" href="#home" aria-label="Abdullah Almalki home"><span class="mark">A</span><span>ABDULLAH <b>ALMALKI</b></span></a>
-      <nav aria-label="Main navigation">
-        <a href="#about" data-en="About" data-ar="نبذة">About</a>
-        <a href="#work" data-en="Projects" data-ar="المشاريع">Projects</a>
-        <a href="#journey" data-en="Journey" data-ar="المسيرة">Journey</a>
-        <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
-      </nav>
-      <button class="lang-switch" id="language" aria-label="Switch language">عربي <span>↗</span></button>
-    </header>
-
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="pulse"></span><span data-en="OPEN TO INTERNSHIP & CO-OP OPPORTUNITIES" data-ar="متاح لفرص التدريب والتدريب التعاوني">OPEN TO INTERNSHIP &amp; CO-OP OPPORTUNITIES</span></div>
-          <h1><span data-en="Turning data into" data-ar="أحوّل البيانات إلى">Turning data into</span><br><em data-en="better decisions." data-ar="قرارات أفضل.">better decisions.</em></h1>
-          <p class="hero-intro" data-en="I’m Abdullah, an Information Systems student at King Saud University interested in artificial intelligence, data analysis, and building useful digital solutions." data-ar="أنا عبدالله، طالب نظم معلومات في جامعة الملك سعود، مهتم بالذكاء الاصطناعي وتحليل البيانات وبناء حلول رقمية مفيدة.">I’m Abdullah, an Information Systems student at King Saud University interested in artificial intelligence, data analysis, and building useful digital solutions.</p>
-          <div class="hero-actions"><a class="button primary" href="#work" data-en="Explore my work" data-ar="اكتشف مشاريعي">Explore my work <span>↘</span></a><a class="text-link" href="#journey" data-en="View education & skills" data-ar="عرض التعليم والمهارات">View education &amp; skills <span>↓</span></a></div>
-          <div class="hero-meta"><span><i>01</i> RIYADH, SAUDI ARABIA</span><span class="availability"><b></b> OPEN TO OPPORTUNITIES</span></div>
+  <header class="wrap top">
+    <div class="logo">A × B <small>مقارنة نسخ البورتفوليو</small></div>
+    <div class="top-links"><a class="top-link" href="portfolio-a/index.html" target="_blank" rel="noopener noreferrer">فتح معاينة A ↗</a><a class="top-link secondary" href="portfolio-b/index.html" target="_blank" rel="noopener noreferrer">فتح البورتفوليو B ↗</a></div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <div><div class="eyebrow">PORTFOLIO PROMPT LAB · A × B</div><h1 id="page-title">الفرق يبدأ من <span style="color:#4778ad">البرومبت.</span></h1><p>من طلب عام من سطر واحد إلى brief يحدد المحتوى والجمهور والخصوصية والتجاوب. شاهد النصين، ثم استكشف كيف انعكس ذلك على نسختي البورتفوليو.</p></div>
+      <div class="status"><b></b>ملف A والـprompts الخاصة بها متوفرة الآن</div>
+    </section>
+    <nav class="tabs" aria-label="التنقل بين المقارنة والنسخ">
+      <a class="tab active" href="#panel-compare">المقارنة</a>
+      <a class="tab" href="portfolio-a/index.html" target="_blank" rel="noopener noreferrer">عرض نسخة A ↗</a>
+      <a class="tab" href="portfolio-b/index.html" target="_blank" rel="noopener noreferrer">عرض نسخة B ↗</a>
+      <a class="tab" href="#panel-a">Prompts A</a>
+      <a class="tab" href="#panel-b">Prompts B</a>
+    </nav>
+    <section class="prompt-showcase" aria-labelledby="prompt-showcase-title">
+      <div class="showcase-head"><div><div class="kicker">THE PROMPT MAKES THE DIFFERENCE</div><h2 id="prompt-showcase-title">طلب مختصر مقابل توجيه واضح</h2><p>المقارنة هنا بين نصوص الطلب الفعلية: ماذا حدد كل prompt للموقع، وماذا ترك مفتوحًا للاجتهاد؟</p></div></div>
+      <div class="versus">
+        <article class="prompt-card a"><div class="prompt-label"><span>A · طلب عام</span><span>4 طلبات قصيرة</span></div><blockquote>“Make my portfolio look better and add some cool features so recruiters will like it.”</blockquote><div class="prompt-foot">يطلب تحسينًا عامًا، من دون تحديد الأقسام أو حدود المحتوى أو الخصوصية.</div></article>
+        <div class="vs-mark" aria-label="مقابل">VS</div>
+        <article class="prompt-card b"><div class="prompt-label"><span>B · brief محدد</span><span>الجمهور · المحتوى · القيود</span></div><blockquote>“Create clear sections for my introduction, education, skills and interests, and Aqarak project… using only the verified details provided.”</blockquote><div class="prompt-foot">يسمي الأقسام والجمهور، ويحدد استخدام الحقائق المؤكدة وعدم كشف بيانات الاتصال.</div></article>
+      </div>
+      <p class="showcase-note">المقتطفان من prompts المستخدمين في هذه النسخة. افتح تبويب Prompts A أو Prompts B لقراءة السجل كاملًا.</p>
+    </section>
+    <section class="panel" id="panel-compare">
+      <div class="card">
+        <div class="card-head"><div><div class="kicker">مقارنة مباشرة</div><h2>النسختان والـprompts المستخدمة</h2><p class="lead">أضفت ملف A المرسل وسجل prompts الخاص به. معاينة A داخل هذا الـMVP تخفي البريد والهاتف وتترك الملف الأصلي كما هو.</p></div><span class="pill ready">A وB متاحتان</span></div>
+        <div class="comparison"><table><thead><tr><th scope="col">جانب المقارنة</th><th scope="col">A</th><th scope="col">B</th></tr></thead><tbody>
+          <tr><td>ملف البورتفوليو</td><td class="known"><a href="portfolio-a/index.html" target="_blank" rel="noopener noreferrer">فتح معاينة A المنقحة ↗</a></td><td class="known"><a href="portfolio-b/index.html" target="_blank" rel="noopener noreferrer">فتح صفحة B ↗</a></td></tr>
+          <tr><td>المحتوى والأقسام</td><td>مقدمة، نبذة، مشروع عقارك، التعليم والمهارات، والتواصل. يدعم العربية والإنجليزية.</td><td>مقدمة، مشروع عقارك، التعليم، والمهارات والاهتمامات. باللغة الإنجليزية.</td></tr>
+          <tr><td>الهوية البصرية</td><td>خلفية داكنة ولمسات خضراء، مع مؤثرات وحركات مرئية.</td><td>كحلي وأزرق فاتح، بتصميم متجاوب وتنقل بسيط.</td></tr>
+          <tr><td>أسلوب الـprompt</td><td>أربع خطوات قصيرة وعامة (weak prompts).</td><td>prompt إنشاء مفصل، ثم مراجعة وتعديلات مباشرة.</td></tr>
+          <tr><td>الخصوصية</td><td>الملف الأصلي يتضمن بريدًا وهاتفًا؛ مخفيان في معاينة المقارنة.</td><td>لا يعرض رقم هاتف أو بريدًا إلكترونيًا.</td></tr>
+          <tr><td>تعديلات موثقة</td><td>تحسينات مظهر وميزات، اختبار، ثم طلب تأثيرات وحركات.</td><td>تحويل اللون إلى كحلي وحذف النقطة بعد الاسم، مع تحسينات وصول.</td></tr>
+        </tbody></table></div>
+        <p class="comparison-note">ملاحظة: الصفوف تصف ما يظهر في الملفات. أي معلومات إضافية داخل A لم تُعامل تلقائيًا كمعلومات مؤكدة خارج سياق نسختها.</p>
+      </div>
+    </section>
+    <section class="panel" id="panel-a">
+      <div class="card">
+        <div class="card-head"><div><div class="kicker">Portfolio A</div><h2>النسخة الأولى · prompts عامة</h2><p class="lead">الملف من المسار الذي أرسلته. أنشأت معاينة منفصلة لإظهار تصميمه من دون كشف بيانات الاتصال.</p></div><span class="pill ready">الملف والprompts متوفرة</span></div>
+        <div class="grid">
+          <div class="fact"><div class="fact-label">الملف</div><strong><a href="portfolio-a/index.html" target="_blank" rel="noopener noreferrer">فتح معاينة A المنقحة ↗</a></strong><p>نسخة معاينة؛ لم يتغير ملف A الأصلي.</p></div>
+          <div class="fact"><div class="fact-label">الأقسام</div><strong>مقدمة · نبذة · عقارك · تعليم ومهارات · تواصل</strong></div>
+          <div class="fact"><div class="fact-label">اللغات والتصميم</div><strong>عربي وإنجليزي</strong><p>واجهة داكنة خضراء وحركات ومؤثرات.</p></div>
+          <div class="fact"><div class="fact-label">تنبيه خصوصية</div><strong>بيانات الاتصال مخفية هنا</strong><p>ملف A الأصلي يحتوي بريدًا وهاتفًا. لم أنقلهما إلى هذه المعاينة.</p></div>
         </div>
-        <div class="hero-art" aria-label="Abstract data visualization">
-          <div class="art-grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-          <div class="data-card card-top"><span class="mini-label">SIGNAL / 01</span><span class="sparkline">⌁⌁⌁</span></div>
-          <div class="data-card card-main"><span class="mini-label">IDEAS INTO IMPACT</span><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-foot"><span>DATA</span><span>INSIGHT</span><span>GROWTH</span></div></div>
-          <div class="data-card card-side"><span class="dot-grid">···<br>···<br>···</span><span>Think<br>forward.</span></div>
-          <div class="art-caption"><span>BUILDING WITH CURIOSITY</span><span>24° 42′ N / 46° 40′ E</span></div>
+        <details class="prompt-box" id="prompt-a" open><summary>A · Step 1 — Reveal Yourself</summary><div class="prompt-content"><blockquote>Build me a personal website that looks modern and includes information about me. use this CV</blockquote></div></details>
+        <details class="prompt-box"><summary>A · Step 2 — Make It Real</summary><div class="prompt-content"><blockquote>Make my portfolio look better and add some cool features so recruiters will like it.</blockquote></div></details>
+        <details class="prompt-box"><summary>A · Step 3 — The Blind Test</summary><div class="prompt-content"><blockquote>Test my portfolio and tell me if it works.</blockquote></div></details>
+        <details class="prompt-box"><summary>A · Step 4 — Make It Unforgettable</summary><div class="prompt-content"><blockquote>Make my portfolio look very beautiful with cool animations and impressive effects.</blockquote></div></details>
+      </div>
+    </section>
+    <section class="panel" id="panel-b">
+      <div class="card">
+        <div class="card-head"><div><div class="kicker">Portfolio B</div><h2>نسخة البورتفوليو الحالية</h2><p class="lead">صفحة شخصية مستقلة تعرض معلوماتك المهنية ومشروعك، وليست أداة لبناء المواقع.</p></div><span class="pill ready">الملف متوفر</span></div>
+        <div class="grid">
+          <div class="fact"><div class="fact-label">الملف</div><strong><a href="portfolio-b/index.html" target="_blank" rel="noopener noreferrer">فتح صفحة B ↗</a></strong></div>
+          <div class="fact"><div class="fact-label">الأقسام</div><strong>مقدمة · مشروع · تعليم · مهارات</strong></div>
+          <div class="fact"><div class="fact-label">الهوية البصرية</div><strong>كحلي وأزرق فاتح</strong><p>تخطيط متجاوب وروابط تنقل داخل الصفحة.</p></div>
+          <div class="fact"><div class="fact-label">المشروع المعروض</div><strong>Aqarak (عقارك)</strong><p>أداة تقدير تقريبي للأسعار باستخدام بيانات منظمة وPython وتقنيات تعلم آلي أساسية.</p></div>
+          <div class="fact"><div class="fact-label">روابط التواصل</div><strong>LinkedIn فقط</strong><p>لا يعرض رقم هاتف أو بريدًا إلكترونيًا.</p></div>
+          <div class="fact"><div class="fact-label">تعديلات طلبها المستخدم</div><strong>كحلي بدل الأخضر</strong><p>وحذف النقطة بعد اسم العائلة في العنوان.</p></div>
         </div>
-        <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 04</span></div>
-      </section>
+        <details class="prompt-box" id="prompt-b" open>
+          <summary>Prompt إنشاء النسخة B</summary>
+          <div class="prompt-content"><blockquote>Act as a professional portfolio designer and frontend developer. Build the first complete version of my personal portfolio website using the project context and the project files I provide.
 
-      <section class="intro section" id="about">
-        <div class="section-label"><span>01</span><span data-en="A LITTLE ABOUT ME" data-ar="نبذة عني">A LITTLE ABOUT ME</span></div>
-        <div class="intro-content"><h2 data-en="Curious by nature.<br><span>Analytical by design.</span>" data-ar="فضولي بطبيعتي.<br><span>تحليلي في تفكيري.</span>">Curious by nature.<br><span>Analytical by design.</span></h2><div class="intro-text"><p data-en="I’m studying how people, business, and technology work together. My focus is turning that perspective into practical, data-informed solutions — with a growing interest in AI and machine learning." data-ar="أدرس كيف تتكامل الأعمال والتقنية واحتياجات الناس. أطمح إلى تحويل هذا الفهم إلى حلول عملية تستند إلى البيانات، مع اهتمام متنامٍ بالذكاء الاصطناعي وتعلّم الآلة.">I’m studying how people, business, and technology work together. My focus is turning that perspective into practical, data-informed solutions — with a growing interest in AI and machine learning.</p><a class="under-link" href="#contact" data-en="Let’s build something useful" data-ar="لنبنِ شيئًا مفيدًا">Let’s build something useful <span>↗</span></a></div></div>
-        <div class="stats"><div><strong>2022<span>—</span>27</strong><small data-en="BSc, Information Systems" data-ar="بكالوريوس نظم المعلومات">BSc, Information Systems</small></div><div><strong>01</strong><small data-en="Applied AI project" data-ar="مشروع تطبيقي في الذكاء الاصطناعي">Applied AI project</small></div><div><strong>06</strong><small data-en="Python & AI courses" data-ar="دورات في بايثون والذكاء الاصطناعي">Python &amp; AI courses</small></div></div>
-        <div class="recruiter-snapshot"><div class="snapshot-title"><span class="snapshot-icon">✳</span><span data-en="RECRUITER SNAPSHOT" data-ar="لمحة سريعة للتوظيف">RECRUITER SNAPSHOT</span></div><div class="snapshot-grid"><div><small data-en="CURRENTLY" data-ar="الوضع الحالي">CURRENTLY</small><b data-en="Information Systems student" data-ar="طالب نظم معلومات">Information Systems student</b></div><div><small data-en="LOOKING FOR" data-ar="أبحث عن">LOOKING FOR</small><b data-en="Internship · Co-op" data-ar="تدريب · تدريب تعاوني">Internship · Co-op</b></div><div><small data-en="FOCUS AREAS" data-ar="مجالات الاهتمام">FOCUS AREAS</small><b>AI · Data · Digital</b></div></div></div>
-      </section>
+Create clear sections for my introduction, education, skills and interests, and Aqarak project. Describe the project’s purpose, my contribution, and the tools or techniques I used, using only the verified details provided. Make the content easy for a recruiter to scan and understand.
 
-      <section class="projects section" id="work">
-        <div class="section-label"><span>02</span><span data-en="SELECTED PROJECT" data-ar="مشروع مختار">SELECTED PROJECT</span></div>
-        <div class="section-heading"><h2 data-en="Work in progress,<br><span>built with purpose.</span>" data-ar="عمل يتطور،<br><span>وأثر له هدف.</span>">Work in progress,<br><span>built with purpose.</span></h2><p data-en="A hands-on project that brings data and practical problem-solving together." data-ar="مشروع عملي يجمع بين البيانات وحل المشكلات الواقعية.">A hands-on project that brings data and practical problem-solving together.</p></div>
-        <article class="project-card"><div class="project-visual"><div class="map-grid"></div><div class="map-lines"></div><div class="pin pin-a"><span></span></div><div class="pin pin-b"><span></span></div><div class="pin pin-c"><span></span></div><div class="price-chip"><small>ESTIMATED VALUE</small><strong>↓ market insight</strong></div><div class="project-visual-label">AQARAK / 01</div></div><div class="project-info"><div class="project-overline"><span>PERSONAL PROJECT</span><span>2025 — PRESENT</span></div><h3>عقارك <span>/ Aqarak</span></h3><p data-en="A real estate price estimation tool that turns property details into a useful market estimate. I gathered and structured neighborhood data, then applied basic machine learning techniques to make the information actionable." data-ar="أداة لتقدير أسعار العقارات تحوّل مواصفات العقار إلى تقدير سوقي مفيد. جمعت بيانات الأحياء ونظّمتها، ثم استخدمت أساليب أساسية في تعلّم الآلة لتحويل البيانات إلى نتائج عملية.">A real estate price estimation tool that turns property details into a useful market estimate. I gathered and structured neighborhood data, then applied basic machine learning techniques to make the information actionable.</p><div class="tags"><span>PYTHON</span><span>DATA COLLECTION</span><span>MACHINE LEARNING</span></div><div class="project-bottom"><span data-en="Research · Data · Estimation" data-ar="بحث · بيانات · تقدير">Research · Data · Estimation</span><span class="arrow-round">↗</span></div></div><details class="case-study"><summary><span data-en="How I approached it" data-ar="كيف عملت على المشروع">How I approached it</span><span class="case-toggle">+</span></summary><div class="case-content"><p data-en="The idea is to make local property data easier to use when forming an initial estimate. The workflow starts with property characteristics and neighborhood records, then organizes comparable information to support a simple, data-informed estimate." data-ar="تهدف الفكرة إلى تسهيل الاستفادة من بيانات العقارات المحلية عند وضع تقدير أولي. تبدأ الخطوات بمواصفات العقار وسجلات الأحياء، ثم تنظيم المعلومات المتقاربة لدعم تقدير مبسط قائم على البيانات.">The idea is to make local property data easier to use when forming an initial estimate. The workflow starts with property characteristics and neighborhood records, then organizes comparable information to support a simple, data-informed estimate.</p><div class="case-steps"><div><i>01</i><b data-en="Collect" data-ar="جمع">Collect</b><small data-en="Property and neighborhood data" data-ar="بيانات العقارات والأحياء">Property and neighborhood data</small></div><div><i>02</i><b data-en="Structure" data-ar="تنظيم">Structure</b><small data-en="Prepare fields for comparison" data-ar="تهيئة البيانات للمقارنة">Prepare fields for comparison</small></div><div><i>03</i><b data-en="Estimate" data-ar="تقدير">Estimate</b><small data-en="Explore a practical ML approach" data-ar="تجربة أسلوب عملي لتعلّم الآلة">Explore a practical ML approach</small></div></div></div></details></article>
-      </section>
+Create a distinctive but professional visual identity suitable for an Information Systems student interested in AI and data. Use clean layouts, readable typography, a consistent color palette, and responsive behavior across mobile, tablet, and desktop. Include simple, useful navigation and working links.
 
-      <section class="journey section" id="journey">
-        <div class="section-label"><span>03</span><span data-en="EDUCATION & TOOLKIT" data-ar="التعليم والمهارات">EDUCATION &amp; TOOLKIT</span></div>
-        <div class="journey-grid"><div><h2 data-en="Learning the<br><span>whole system.</span>" data-ar="أتعلم فهم<br><span>الصورة كاملة.</span>">Learning the<br><span>whole system.</span></h2><div class="timeline"><article><time>2022 — 2027</time><h3 data-en="Bachelor of Information Systems" data-ar="بكالوريوس نظم المعلومات">Bachelor of Information Systems</h3><p>King Saud University <span>· Riyadh</span></p></article><article><time>2025</time><h3 data-en="Artificial Intelligence Program" data-ar="برنامج الذكاء الاصطناعي">Artificial Intelligence Program</h3><p>Tuwaiq Academy</p></article></div></div><div class="toolkit"><span class="mini-label">TOOLS &amp; STRENGTHS</span><div class="skill-cloud"><span class="skill featured">Python</span><span class="skill">Data Analysis</span><span class="skill">Systems Analysis</span><span class="skill">Problem Solving</span><span class="skill">AI &amp; ML Fundamentals</span><span class="skill">Communication</span><span class="skill">Teamwork</span></div><div class="certs"><span class="mini-label" data-en="PYTHON & DATA SCIENCE COURSEWORK" data-ar="دورات بايثون وعلوم البيانات">PYTHON &amp; DATA SCIENCE COURSEWORK</span><p>Data Science in Python · Data Collection &amp; Processing · Python Basics · Functions, Files &amp; Dictionaries · Classes &amp; Inheritance · AI Fundamentals with Python</p></div></div></div>
-      </section>
+Do not invent missing information. Do not expose private contact details. If a detail would improve the portfolio but is missing, leave a clear placeholder or ask me instead of guessing. Build a functioning website, not a static design mockup. When finished, summarize the sections and features you implemented and list any information you still need from me.</blockquote></div>
+        </details>
+        <details class="prompt-box">
+          <summary>المعلومات المرجعية المستخدمة في B</summary>
+          <div class="prompt-content"><blockquote>I am Abdullah Almalki, an Information Systems student at King Saud University (2022–2027). I completed the Artificial Intelligence Program at Tuwaiq Academy in 2025.
 
-      <section class="contact section" id="contact"><div class="section-label"><span>04</span><span data-en="SAY HELLO" data-ar="تواصل معي">SAY HELLO</span></div><div class="contact-inner"><div><h2 data-en="Let’s make<br><em>ideas useful.</em>" data-ar="لنجعل<br><em>الأفكار مفيدة.</em>">Let’s make<br><em>ideas useful.</em></h2><p data-en="Looking for an internship or co-op opportunity, and always happy to connect with people building thoughtful technology." data-ar="أبحث عن فرصة تدريب أو تدريب تعاوني، ويسعدني التواصل مع المهتمين ببناء تقنيات هادفة.">Looking for an internship or co-op opportunity, and always happy to connect with people building thoughtful technology.</p><div class="contact-actions"><a class="button primary" href="https://www.linkedin.com/in/abdullah-almalki-9358a1350" target="_blank" rel="noreferrer" data-en="Open LinkedIn" data-ar="افتح لينكدإن">Open LinkedIn <span>↗</span></a></div></div><div class="contact-links"><div class="contact-redacted"><span>CONTACT DETAILS</span><b>Private email and phone details are omitted. Connect via LinkedIn.</b></div><a href="https://www.linkedin.com/in/abdullah-almalki-9358a1350" target="_blank" rel="noreferrer"><span>LINKEDIN</span><b>abdullah-almalki</b><i>↗</i></a></div></div></section>
-    </main>
-    <footer><a class="wordmark" href="#home"><span class="mark">A</span><span>ABDULLAH <b>ALMALKI</b></span></a><span data-en="Designed with curiosity · 2025" data-ar="صُمم بفضول · 2025">Designed with curiosity · 2025</span><a href="#home" class="back-top" data-en="BACK TO TOP ↑" data-ar="للأعلى ↑">BACK TO TOP ↑</a></footer>
-  </div>
-  <script src="script.js"></script>
+My interests include artificial intelligence, data analysis, emerging technologies, and digital transformation. My listed skills include Python, data analysis, problem solving, communication, teamwork, systems analysis, and basic knowledge of AI and machine learning.
+
+My personal project is Aqarak (عقارك), a real estate price estimation tool. I collected and structured real estate data from multiple neighborhoods and used Python and basic machine-learning techniques to estimate approximate property prices from details such as area, number of rooms, neighborhood, and other specifications.
+
+Use only the facts in this brief and the project files I provide. Do not invent achievements, results, work experience, skills, awards, personality traits, or career goals. Do not publish my phone number or email address. You may include my LinkedIn profile if useful: https://www.linkedin.com/in/abdullah-almalki-9358a1350.</blockquote></div>
+        </details>
+        <details class="prompt-box">
+          <summary>Prompts التعديل اللاحقة لـ B</summary>
+          <div class="prompt-content"><p><b>تعديل اللون والاسم:</b></p><blockquote>i want you to change the green color to navy blue and after my name there's a dot remove it</blockquote><p style="margin-top:14px"><b>توجيه سياقي سابق:</b></p><blockquote>لا تعدل على ملف A انشئ بورتفوليو جديدة تماما</blockquote></div>
+        </details>
+        <details class="prompt-box">
+          <summary>Prompt مراجعة النسخة B</summary>
+          <div class="prompt-content"><blockquote>Review the current portfolio in [PROJECT FILES OR CODE] as if you are a recruiter seeing it for the first time.
+
+Without relying on explanations from me, check whether a visitor can quickly:
+1. Understand who I am and what I study.
+2. Find my listed skills and interests.
+3. Understand the purpose of Aqarak and what I contributed.
+4. Navigate the site and open the LinkedIn link.
+5. Use the portfolio comfortably on mobile and desktop.
+
+Inspect the visible content for unsupported claims, confusing wording, spelling issues, private contact information, broken links, and unfinished placeholders. Check the main navigation and interactive elements. Review basic accessibility, including keyboard navigation, heading structure, link clarity, color contrast, and reduced-motion behavior.
+
+Report findings by priority, explain the effect on a recruiter, and suggest a concrete fix for each issue. Fix clear issues directly in the project without adding unsupported facts or changing the project’s purpose. Recheck the affected areas and finish with a concise summary of what works and anything that still needs my decision.</blockquote></div>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>نموذج أولي مستقل لعرض ومقارنة نسختي البورتفوليو.</span><div class="footer-links"><a href="portfolio-a/index.html" target="_blank" rel="noopener noreferrer">الانتقال إلى A ↗</a><a href="portfolio-b/index.html" target="_blank" rel="noopener noreferrer">الانتقال إلى B ↗</a></div></footer>
 </body>
 </html>

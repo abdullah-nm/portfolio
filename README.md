@@ -1,9 +1,9 @@
 # Abdullah Almalki — Portfolio
 
-Personal portfolio files for Abdullah Almalki.
+The A × B comparison is the GitHub Pages homepage.
 
-- [Portfolio A](index.html)
+- [A × B comparison](index.html)
+- [Portfolio A](portfolio-a/index.html)
 - [Portfolio B](portfolio-b/index.html)
-- [A × B comparison](comparison/index.html)
 
-The comparison folder includes local previews of A and B. Contact details are omitted from the A preview.
+The comparison page links to both standalone portfolio versions. Portfolio A has its own CSS and JavaScript files in the same folder. Private email and phone details are omitted.
